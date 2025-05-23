@@ -1,10 +1,15 @@
-Coming soon (in 3 days)
-We will release models of 
+This is repo containing all advanced De Novo peptide sequencing models developed by us.
 
--RefineNovo, A new NAT model for ultra stable training that fits all MS/MS data
+It includes:
 
--rankNovo, A reranking framework to combine output from multiple model's output for best de novo sequencing
+1. RefineNovo: an ultra-stable NAT model framework that can adapt to any data distributions.
 
--Reflection Based peptide sequencing models (near future)
+2. PrimeNovo: First NAT biological sequences model for fast sequencing.
+
+3. ContraNovo: Autoregressive multimodal contrastive learning model for de novo sequencing.
+
+4. RankNovo: A framework for combining any set of de novo models for combined power of accurate predictions.
+
+5. Reflection based model: a model that allows for CoT and self-correction.
 
 
