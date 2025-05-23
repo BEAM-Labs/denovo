@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: torch-imputer
+Version: 0.1.0
+Summary: Implementation of Imputer: Sequence Modelling via Imputation and Dynamic Programming in PyTorch 
+Home-page: https://github.com/rosinality/imputer-pytorch
+Author: Kim Seonghyeon
+Author-email: kim.seonghyeon@navercorp.com
+License: MIT
+Requires-Python: >=3.6
+License-File: LICENSE
