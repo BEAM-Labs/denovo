@@ -8,9 +8,9 @@ It includes:
 
 3. ContraNovo: Autoregressive multimodal contrastive learning model for de novo sequencing.
 
-4. RankNovo: A framework for combining any set of de novo models for combined power of accurate predictions, **having best performance when augmented strong base models**.
+4. RankNovo: A framework for combining any set of de novo models for combined power of accurate predictions
 
-5. crossNovo: A unified model combining knowledge learnt from both NAT and AT model, **best performed single model among all**.
+5. crossNovo: A unified model combining knowledge learnt from both NAT and AT model
 
 6. Reflection based model: a model that allows for CoT and self-correction.
 
