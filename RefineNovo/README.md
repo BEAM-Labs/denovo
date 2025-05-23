@@ -3,7 +3,7 @@
 This is the official repo for the ICML paper: **[Curriculum Learning for Biological Sequence Prediction: The Case of De Novo Peptide Sequencing](https://www.icml.com/)**
 
 We will release the future model update here, please leave a **star** and **watching** if you want to get notified and follow up.
-![prime](./assets/Glancing.pdf)
+![prime](./assets/Glancing.png)
 
 
 
