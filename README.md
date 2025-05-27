@@ -13,6 +13,6 @@ It includes:
 
 6. crossNovo: A unified model combining knowledge learnt from both NAT and AT model (best single-model performance so far)
 
-7. Reflection based model: a model that allows for CoT and self-correction.
+7. Reflection based model: a model that allows for CoT and self-correction (human interferability)
 
 
