@@ -12,7 +12,7 @@ This is repo containing all advanced De Novo peptide sequencing models developed
 It includes:
 
 | Model | Model Checkpoint | Category | Brief Introduction |
-|-------------------|--------|-----------------------------------------------------------------------|
+|-------------------|--------|--------|-----------------------------------------------------------------------|
 | ContraNovo | ContraNovo | AT |  Autoregressive multimodal contrastive learning model for de novo sequencing. | 
 | PrimeNovo | PrimeNovo| NAT | First NAT biological sequences model for fast sequencing. |
 | RefineNovo | RefineNovo | NAT | An ultra-stable NAT model framework that can adapt to any data distributions. (most stable training so far, guaranteed successful training). |
@@ -22,16 +22,16 @@ It includes:
 
 (N)AT refers to (Non)-Autoregressive Transformer.
 
-Feel free to open Issues or start a Discussion to share your results! 🎉
+Feel free to open Issues or start a Discussion to share your results!
 
 
 ## 🎉 News
 
-- **[2025-05]** RefineNovo and RankNovo have been accepted by ICML'2025.🎉
+- **[2025-05]** RefineNovo and RankNovo have been accepted by ICML'2025. 🎉
 
-- **[2024-11]** PrimeNovo has been accepted by Nature Communications.🎉
+- **[2024-11]** PrimeNovo has been accepted by Nature Communications. 🎉
 
-- **[2023-12]** ContraNovo has been accepted by AAAI'2024.🎉
+- **[2023-12]** ContraNovo has been accepted by AAAI'2024. 🎉
 
 
 ## 🌟 Get Started
