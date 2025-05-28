@@ -13,7 +13,7 @@ It includes:
 
 | Model | Model Checkpoint | Category | Brief Introduction |
 |-------------------|--------|--------|-----------------------------------------------------------------------|
-| **ContraNovo** | [ContraNovo]([https://www.runoob.com](https://drive.google.com/file/d/1knNUqSwPf98j388Ds2E6bG8tAXx8voWR/view?usp=drive_link)) | AT |  Autoregressive multimodal contrastive learning model for de novo sequencing. | 
+| **ContraNovo** | [ContraNovo](https://drive.google.com/file/d/1knNUqSwPf98j388Ds2E6bG8tAXx8voWR/view?usp=drive_link)) | AT |  Autoregressive multimodal contrastive learning model for de novo sequencing. | 
 | **PrimeNovo** | [PrimeNovo](https://drive.google.com/file/d/12IZgeGP3ae3KksI5_82yuSTbk_M9sKNY/view?usp=share_link) | NAT | First NAT biological sequences model for fast sequencing. |
 | **RefineNovo** | coming soon | NAT | An ultra-stable NAT model framework that can adapt to any data distributions. (most stable training so far, guaranteed successful training). |
 | **RankNovo** | coming soon | NAT | A framework for combining any set of de novo models for combined power of accurate predictions. |
@@ -21,6 +21,8 @@ It includes:
 | **ReflectionPT** | coming soon | AT | A model that allows for CoT and self-correction (human interferability). |
 
 (N)AT refers to (Non)-Autoregressive Transformer.
+
+Test MGF File: [Bacillus.10k.mgf](https://drive.google.com/file/d/1HqfCETZLV9ZB-byU0pqNNRXbaPbTAceT/view?usp=drive_link)
 
 Feel free to open Issues or start a Discussion to share your results!
 
@@ -42,6 +44,14 @@ Feel free to open Issues or start a Discussion to share your results!
 conda create -n ATdenovo python=3.10
 conda env create -f environment.yml
 conda activate ATdenovo
+```
+
+### 2. Run ContraNovo
+
+Run ContraNovo test on bacillus.10k.mgf:
+
+```bash
+python -m ContraNovo.ContraNovo  --mode=eval --peak_path=./ContraNovo/bacillus.10k.mgf --model=./ContraNovo/ContraNovo.ckpt
 ```
 
 ## 🌟 Get Started for NAT De Novo
