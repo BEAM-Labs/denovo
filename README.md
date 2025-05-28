@@ -5,20 +5,20 @@
 
 ---
 
-## 📃Overview
+## 📃 Overview
 
 This is repo containing all advanced De Novo peptide sequencing models developed by Beam Lab.
 
 It includes:
 
-| Model | Category | Brief Introduction |
+| Model | Model Checkpoint | Category | Brief Introduction |
 |-------------------|--------|-----------------------------------------------------------------------|
-| ContraNovo | AT |  Autoregressive multimodal contrastive learning model for de novo sequencing. |
-| PrimeNovo | NAT | First NAT biological sequences model for fast sequencing. |
-| RefineNovo | NAT | An ultra-stable NAT model framework that can adapt to any data distributions. (most stable training so far, guaranteed successful training). |
-| RankNovo | NAT | A framework for combining any set of de novo models for combined power of accurate predictions. |
-| CrossNovo | AT | A unified model combining knowledge learnt from both NAT and AT model (best single-model performance so far). |
-| Reflection based model | AT | A model that allows for CoT and self-correction (human interferability). |
+| ContraNovo | ContraNovo | AT |  Autoregressive multimodal contrastive learning model for de novo sequencing. | 
+| PrimeNovo | PrimeNovo| NAT | First NAT biological sequences model for fast sequencing. |
+| RefineNovo | RefineNovo | NAT | An ultra-stable NAT model framework that can adapt to any data distributions. (most stable training so far, guaranteed successful training). |
+| RankNovo | RankNovo | NAT | A framework for combining any set of de novo models for combined power of accurate predictions. |
+| CrossNovo | come soon | AT | A unified model combining knowledge learnt from both NAT and AT model (best single-model performance so far). |
+| Reflection based model | come soon | AT | A model that allows for CoT and self-correction (human interferability). |
 
 (N)AT refers to (Non)-Autoregressive Transformer.
 
