@@ -18,7 +18,7 @@ It includes:
 | **RefineNovo** | coming soon | NAT | An ultra-stable NAT model framework that can adapt to any data distributions. (most stable training so far, guaranteed successful training). |
 | **RankNovo** | coming soon | - | A framework for combining any set of de novo models for combined power of accurate predictions. |
 | **CrossNovo** | coming soon | AT | A unified model combining knowledge learnt from both NAT and AT model (best single-model performance so far). |
-| **ReflectionPT** | coming soon | AT | A model that allows for CoT and self-correction (human interferability). |
+| **ReflectionPT** | coming soon | AT | A model that allows for CoT and self-correction (human interperability). |
 
 (N)AT refers to (Non)-Autoregressive Transformer.
 
