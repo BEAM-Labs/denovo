@@ -1,8 +1,11 @@
 <h1 align="center">De Novo Peptide Sequencing</h1>
 
+<img width="1301" alt="Clipboard_Screenshot_1748418034" src="https://github.com/user-attachments/assets/5e194446-04ed-4f39-b1bd-1dccb4de155a" />
+
+
 ---
 
-# 📃Overview
+## 📃Overview
 
 This is repo containing all advanced De Novo peptide sequencing models developed by Beam Lab.
 
@@ -22,7 +25,7 @@ It includes:
 Feel free to open Issues or start a Discussion to share your results! 🎉
 
 
-# 🎉News
+## 🎉 News
 
 - **[2025-05]** RefineNovo and RankNovo have been accepted by ICML'2025.🎉
 
@@ -30,14 +33,11 @@ Feel free to open Issues or start a Discussion to share your results! 🎉
 
 - **[2023-12]** ContraNovo has been accepted by AAAI'2024.🎉
 
-Feel free to open Issues or start a Discussion to share your results! 🎉
+
+## 🌟 Get Started
 
 
-# 🌟Get Started
-
-# 📈Performans
-
-# 🎈Citations
+## 🎈 Citations
 
 If you use this project, please cite:
 
