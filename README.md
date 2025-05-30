@@ -190,12 +190,9 @@ If you use this project, please cite:
   publisher={Nature Publishing Group UK London}
 }
 
-@misc{qiu2025universalbiologicalsequencereranking,
-      title={Universal Biological Sequence Reranking for Improved De Novo Peptide Sequencing}, 
-      author={Zijie Qiu and Jiaqi Wei and Xiang Zhang and Sheng Xu and Kai Zou and Zhi Jin and Zhiqiang Gao and Nanqing Dong and Siqi Sun},
-      year={2025},
-      eprint={2505.17552},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2505.17552}, 
+@article{qiu2025universal,
+  title={Universal Biological Sequence Reranking for Improved De Novo Peptide Sequencing},
+  author={Qiu, Zijie and Wei, Jiaqi and Zhang, Xiang and Xu, Sheng and Zou, Kai and Jin, Zhi and Gao, Zhiqiang and Dong, Nanqing and Sun, Siqi},
+  journal={arXiv preprint arXiv:2505.17552},
+  year={2025}
 }
