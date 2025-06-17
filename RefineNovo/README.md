@@ -1,6 +1,6 @@
 # RefineNovo
 
-This is the official repo for the ICML paper: **[Curriculum Learning for Biological Sequence Prediction: The Case of De Novo Peptide Sequencing](https://www.google.com/)**
+This is the official repo for the ICML paper: **[Curriculum Learning for Biological Sequence Prediction: The Case of De Novo Peptide Sequencing]([https://www.google.com/](https://arxiv.org/pdf/2506.13485))**
 
 We will release the future model update here, please leave a **star** and **watching** if you want to get notified and follow up.
 ![prime](./assets/Glancing.png)
