@@ -3,19 +3,8 @@
 This is the official repo for the paper: **[π-PrimeNovo: An Accurate and Efficient Non-Autoregressive Deep Learning Model for De Novo Peptide Sequencing](https://www.nature.com/articles/s41467-024-55021-3)**
 
 We will release the future model update (user-interface, new model weight, optimized modules etc) here, please leave a **star** and **watching** if you want to get notified and follow up.
-![prime](./assets/PrimeNovo.png)
-
-## Update：
-**May 2025** We have designed the new NAT model that supports ultra **stable** training and guaranteened convergence with any data, solving the problems previously raised in the Issues where training of PrimeNovo easily leads to crushing and failures. The paper currently is accepted to ICML 2025. For people who wants to perform stable NAT pre-training, please visit our new Model [Github Repo](https://github.com/BEAM-Labs/denovo/tree/main).
 
 
-**Mar. 2025**: We have released PrimeNovo-PTM code, including the weight for our finetuned PTM weight for Phosphorylation (+79.97) using LUAD-2020 dataset, which is exactly as detailed in our paper. It's currently under directory [pi-PrimeNovo-PTM](./pi-PrimeNovo-PTM), one can modify this code into any desired PTM he wants as per our instructions in `README.md` in this directory. 
-
-**Jan. 2025**: We will be releasing PrimeNovo-PTM weight in near future, stay tuned. 
-
-**Jan. 2025**: For those interested in gaining a deeper understanding of PMC algorithm designs, please refer to this paper : [A Character-Level Length-Control Algorithm for Non-Autoregressive Sentence Summarization](https://proceedings.neurips.cc/paper_files/paper/2022/hash/bb0f9af6a4881ccb6e14c11b8b4be710-Abstract-Conference.html).
-
-While the algorithms are highly similar, yet still different if you read it carefully, this paper applies them in the context of NLP rather than De Novo Sequencing. It offers valuable insights from both an application perspective and an algorithm expression perspective, helping readers understand the design from multiple angles.
 
 ## Notes from Authors 
 
