@@ -543,7 +543,7 @@ class Spec2Pep(pl.LightningModule, ModelMixin):
                 #print("got it")
         total_loss = torch.tensor([0]).to(self.device)
         #_-------
-        for i in range(1):
+        for i in range(2):
             
             pred, truth, output_list = self._forward_step(*batch, glat_prev)
             
