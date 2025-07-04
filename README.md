@@ -65,6 +65,13 @@ If you use this project, please cite:
   publisher={Nature Publishing Group UK London}
 }
 
+@article{zhang2025curriculum,
+  title={Curriculum Learning for Biological Sequence Prediction: The Case of De Novo Peptide Sequencing},
+  author={Zhang, Xiang and Wei, Jiaqi and Qiu, Zijie and Xu, Sheng and Dong, Nanqing and Gao, Zhiqiang and Sun, Siqi},
+  journal={arXiv preprint arXiv:2506.13485},
+  year={2025}
+}
+
 @article{qiu2025universal,
   title={Universal Biological Sequence Reranking for Improved De Novo Peptide Sequencing},
   author={Qiu, Zijie and Wei, Jiaqi and Zhang, Xiang and Xu, Sheng and Zou, Kai and Jin, Zhi and Gao, Zhiqiang and Dong, Nanqing and Sun, Siqi},
