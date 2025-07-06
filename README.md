@@ -41,7 +41,7 @@ Refer to [NAT Denovo](./NAT_denovo.md) for NAT denovo environment preparation.
 
 ### 2. Run RankNovo
 
-Refer to [NAT Denovo](./RankNovo/readme.md) for NAT denovo environment preparation.
+Refer to [RankNovo](./RankNovo/README.md) for NAT denovo environment preparation.
 
 ## 🎈 Citations
 
