@@ -82,4 +82,13 @@ If you use this project, please cite:
   journal={arXiv preprint arXiv:2505.17552},
   year={2025}
 }
+
+@article{jun2025massnet,
+  title={MassNet: billion-scale AI-friendly mass spectral corpus enables robust de novo peptide sequencing},
+  author={Jun, A and Zhang, Xiang and Zhang, Xiaofan and Wei, Jiaqi and Zhang, Te and Deng, Yamin and Liu, Pu and Nie, Zongxiang and Chen, Yi and Dong, Nanqing and others},
+  journal={bioRxiv},
+  pages={2025--06},
+  year={2025},
+  publisher={Cold Spring Harbor Laboratory}
+}
 ```
