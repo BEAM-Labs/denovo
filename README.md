@@ -18,7 +18,6 @@ It includes:
 | **[XuanjiNovo](https://www.biorxiv.org/content/biorxiv/early/2025/06/26/2025.06.20.660691.full.pdf)** | [XuanjiNovo-100M](https://github.com/guomics-lab/MassNet-DDA)                                                                                      | NAT      | An scaling version of RefineNovo pre-trained on much larger dataset. |
 | **[RankNovo](https://arxiv.org/pdf/2506.13485)**   | [RankNovo](https://drive.google.com/file/d/1Zfzpu5JHUvMXfvNPA-QVGzXMyF499vFL/view?usp=sharing)      | -        | A framework for combining any set of de novo models for combined power of accurate predictions.                                              |
 
-
 | **[CrossNovo](https://arxiv.org/pdf/2506.13485)**   | [CrossNovo](https://drive.google.com/file/d/1Zfzpu5JHUvMXfvNPA-QVGzXMyF499vFL/view?usp=sharing)      | -        | A framework for combining AT and NAT for Peptide Sequencing.                                       |
 
 (N)AT refers to (Non)-Autoregressive Transformer.
