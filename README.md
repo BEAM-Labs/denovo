@@ -27,7 +27,7 @@ Feel free to open Issues or start a Discussion to share your results!
 
 ## 🎉 News
 
-- **[2025-09]** CrossNovo has been accepted by NeurIPS'2025. 🎉
+- **[2025-09]** CrossNovo has been accepted by NeurIPS'2025. 🎉 (Code Coming Soon, going through final cleaning up)
 - **[2025-05]** RefineNovo have been accepted by ICML'2025. 🎉
 - **[2025-05]** RankNovo have been accepted by ICML'2025. 🎉
 - **[2024-11]** PrimeNovo has been accepted by Nature Communications. 🎉
