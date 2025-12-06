@@ -6,6 +6,8 @@ This is the codebase and model weight for paper **Enabling Thinking, Reflecting 
 
 # Where did we implement relfection?
 
+
+
 The error insersion is implemented in /ReflectionPT/components/transformer.py:tokenize( ... ) function. 
 
 The training and model is implemented in /ReflectionPT/denovo/model.py
