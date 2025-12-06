@@ -75,7 +75,7 @@ neptune-client==0.16.16
 nest-asyncio==1.5.6
 networkx==3.1
 numba==0.56.4
-numpy==1.23.5
+numpy
 oauthlib==3.2.1
 packaging==22.0
 pandas==1.5.2
