@@ -57,7 +57,7 @@ python -m ReflectionPT.ReflectionPT --mode=eval --peak_path=./bacillus.10k.mgf -
 
 We provide a example output of the model here: 
 
-The "<back>" from output is reflection token. 
+The "back" from output is reflection token. 
 
 
 
