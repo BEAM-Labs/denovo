@@ -1,0 +1,31 @@
+# Runtime dependencies for the public inference package.
+# The environment.yml file is the recommended installation route.
+# For CUDA 12.1 wheels, install with:
+#   pip install --extra-index-url https://download.pytorch.org/whl/cu121 -r requirements.txt
+
+# GPU/model inference
+torch==2.3.0
+pytorch-lightning==1.8.6
+flash-attn==2.7.4.post1
+triton==2.3.0
+cupy-cuda12x==13.4.0
+einops==0.6.0
+transformers==4.51.3
+huggingface_hub==0.30.2
+
+# Spectrum input and model utilities
+pyteomics==4.5.6
+spectrum-utils==0.4.2
+numpy==1.23.5
+pandas==1.5.2
+scipy==1.10.0
+pyyaml==6.0
+click==8.2.0
+loguru>=0.7
+psutil==5.9.4
+tqdm==4.67.1
+packaging==24.2
+
+# Target/decoy preparation and FDR filtering
+lmdb>=1.4
+polars>=1.0,<2

@@ -1,0 +1,3 @@
+# Install in a separate Python 3.10 environment.
+# This keeps pyOpenMS separate from the model environment.
+pyopenms==3.5.0

@@ -1,0 +1,101 @@
+###
+# OmniNovo configuration with full PTM-site rules.
+# Rules constrain which amino acids each PTM can follow during decoding.
+###
+
+random_seed: 42
+
+# PMC (Precursor Mass Control) decoding.
+PMC_enable: True
+mass_control_tol: 0.1  # Da
+
+# PTM site probability output (requires rules to be enabled).
+output_site_probs: True
+
+
+# Spectrum processing.
+n_peaks: 300
+min_mz: 1
+max_mz: 6500.0
+min_intensity: 0.0
+remove_precursor_tol: 1  # Da
+max_charge: 10
+precursor_mass_tol: 50  # ppm
+isotope_error_range: [0, 1]
+
+# Model architecture.
+dim_model: 256
+n_head: 16
+dim_feedforward: 768
+n_layers: 12
+dropout: 0.1
+dim_intensity:
+custom_encoder:
+num_key_value_heads: 8
+head_dim: 48
+max_length: 40
+flash_attn: True
+use_bf16: True
+
+# Amino acid residue masses.
+residues:
+  "G": 57.021464
+  "A": 71.037114
+  "S": 87.032028
+  "P": 97.052764
+  "V": 99.068414
+  "T": 101.047670
+  "C": 103.009185
+  "L": 113.084064
+  "I": 113.084064
+  "N": 114.042927
+  "D": 115.026943
+  "Q": 128.058578
+  "K": 128.094963
+  "E": 129.042593
+  "M": 131.040485
+  "H": 137.058912
+  "F": 147.068414
+  "R": 156.101111
+  "Y": 163.063329
+  "W": 186.079313
+  "(car)": 43.005814
+  "(deam)": 0.984016
+  "(ox)": 15.994915
+  "(cam)": 57.021464
+  "(-nh3)": -17.026549
+  "(ac)": 42.010565
+  "(di)": 28.0313
+  "(me)": 14.01565
+  "(tr)": 42.04695
+  "(ub)": 114.042927
+  "(ph)": 79.966331
+
+# Constrained decoding: all PTMs in the residue dict.
+legal_ptms: ["(car)", "(deam)", "(ox)", "(cam)", "(-nh3)", "(ac)", "(di)", "(me)", "(tr)", "(ub)", "(ph)"]
+
+# Biological rules: which amino acids each PTM can modify.
+rules:
+  "(ph)":   ["S", "T", "Y"]
+  "(ox)":   ["M"]
+  "(cam)":  ["C"]
+  "(ac)":   ["K", "R", "n-terminal"]
+  "(me)":   ["K", "R", "S"]
+  "(di)":   ["K", "R"]
+  "(tr)":   ["K"]
+  "(ub)":   ["K"]
+  "(deam)": ["N", "Q"]
+  "(car)":  ["n-terminal"]
+  "(-nh3)": ["n-terminal"]
+
+n_log: 1
+
+
+
+
+predict_batch_size: 2048
+n_beams: 1
+
+
+temp_dir_auto: True
+temp_dir: ""
