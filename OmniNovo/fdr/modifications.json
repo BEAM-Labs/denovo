@@ -1,0 +1,13 @@
+[
+  {"name":"Carbamyl","token":"(car)","residues":"n","delta_mass":43.005814},
+  {"name":"Deamidated","token":"(deam)","residues":"NQ","delta_mass":0.984016},
+  {"name":"Oxidation","token":"(ox)","residues":"M","delta_mass":15.994915},
+  {"name":"Carbamidomethyl","token":"(cam)","residues":"C","delta_mass":57.021464},
+  {"name":"AmmoniaLoss","token":"(-nh3)","residues":"n","delta_mass":-17.026549},
+  {"name":"Acetyl","token":"(ac)","residues":"KRn","delta_mass":42.010565},
+  {"name":"Dimethyl","token":"(di)","residues":"KR","delta_mass":28.031300},
+  {"name":"Methyl","token":"(me)","residues":"KRS","delta_mass":14.015650},
+  {"name":"Trimethyl","token":"(tr)","residues":"K","delta_mass":42.046950},
+  {"name":"GlyGly","token":"(ub)","residues":"K","delta_mass":114.042927},
+  {"name":"Phospho","token":"(ph)","residues":"STY","delta_mass":79.966331}
+]
