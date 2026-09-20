@@ -96,3 +96,7 @@ Include every GPU rank and retain all prediction rows. The filter accepts `--psm
 ## 4. Outputs and supported modifications
 
 The filtered directory contains `filtered_psms.tsv`, `filtered_peptides.tsv`, `all_psms.tsv`, `excluded_psms.tsv`, `summary.json`, q-value curves and PTMProphet results. All 11 model modifications and candidate sites are defined in `fdr/modifications.json`; PTM-site constraints are enabled by `default_rules.yaml`.
+
+## 5. FragPipe reference-search configuration
+
+The configuration snapshots used for the ultradeep HeLa reference search are in [`config/fragpipe/`](config/fragpipe/). They include the FragPipe 22.0 workflow and the corresponding MSFragger parameter file. Machine-specific paths were replaced with portable placeholders; see [`config/fragpipe/README.md`](config/fragpipe/README.md) before running the search.
